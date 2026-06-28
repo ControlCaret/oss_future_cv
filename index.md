@@ -7,8 +7,8 @@ nav_order: 1
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 <link rel="stylesheet" href="./css/custom.css">
 
+{: .warning-title }
 > **본 이력서는 과제 제출용으로 작성된 가상 이력서입니다.**
-{: .warning }
 
 # Future CV
 
@@ -142,9 +142,14 @@ nav_order: 1
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var toc = document.getElementById("markdown-toc");
-  var sidebar = document.querySelector(".side-bar");
-  if (toc && sidebar) {
-    sidebar.appendChild(toc);
+  var activeNavItem = document.querySelector(".side-bar .nav-list-item.active");
+  if (toc && activeNavItem) {
+    activeNavItem.appendChild(toc);
+  } else if (toc) {
+    var sidebar = document.querySelector(".side-bar");
+    if (sidebar) {
+      sidebar.appendChild(toc);
+    }
   }
 });
 </script>
