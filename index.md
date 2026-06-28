@@ -1,7 +1,14 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+---
+layout: default
+title: Future CV
+nav_order: 1
+---
 
-> [!WARNING]
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+<link rel="stylesheet" href="./css/custom.css">
+
 > **본 이력서는 과제 제출용으로 작성된 가상 이력서입니다.**
+{: .warning }
 
 # Future CV
 
@@ -17,8 +24,6 @@
 
 <img src="./images/dVrXaYUZ.jpeg" width="250" alt="프로필 사진">
 <small style="color: gray; display: block;">* 위 사진은 가상으로 생성된 이미지이며 실존 인물의 사진이 아닙니다.</small>
-
-<br>
 
 **안녕하세요, Computer Vision 연구원 및 Software 개발자 곽희재 입니다.** 분야를 가리지 않고 문제를 정의하고 해결하는 것을 좋아합니다. 많은 사람에게 도움이 되는 소프트웨어를 만들기 위해 끊임없이 고민하고 있습니다.
 
@@ -133,3 +138,13 @@
   - 이메일: kdpark@kw.ac.kr
   - 인간컴퓨터상호작용, 인공지능응용, 인간공학, 교육공학, 디지털헬스케어, 보조공학
   - [IDEA Lab.](https://kwidea.com/)
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var toc = document.getElementById("markdown-toc");
+  var sidebar = document.querySelector(".side-bar");
+  if (toc && sidebar) {
+    sidebar.appendChild(toc);
+  }
+});
+</script>
