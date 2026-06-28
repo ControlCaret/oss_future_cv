@@ -1,0 +1,6 @@
+title: 곽희재 Future CV
+description: 컴퓨터 비전 AI 연구원 지망생
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme

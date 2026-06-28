@@ -3,11 +3,20 @@
 > [!WARNING]
 > **본 이력서는 과제 제출용으로 작성된 가상 이력서입니다.**
 
-
-
 # Future CV
 
+---
+
+## 목차
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
+
 <img src="./images/dVrXaYUZ.jpeg" width="250" alt="프로필 사진">
+<small style="color: gray; display: block;">* 위 사진은 가상으로 생성된 이미지이며 실존 인물의 사진이 아닙니다.</small>
 
 <br>
 
